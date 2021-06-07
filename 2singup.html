@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<title>요리조리 회원가입</title>
+<style>
+* {
+    padding: 0;
+    margin: 0;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+header {
+	margin: 0px;
+	width: 1903px;
+	height: 100px;
+    border-bottom: solid 4px rgb(237, 125, 49);
+}
+section {
+    margin-left: 450px;
+    margin-top: 100px;
+}
+footer {
+    clear: both;
+    width: 1901px;
+    height: 130px;
+    margin-top: 130px;
+    background-color: rgb(255, 192, 149);
+}
+#logo {
+    float: left;
+    color: rgb(237, 125, 49);
+    font-size: 50px;
+    font-weight: bold;
+    margin: 15px 0px 0px 25px;
+}
+.Or {
+    color: rgb(237, 125, 49);
+}
+.Ye {
+    color: rgb(255, 192, 0);
+}
+#mag {
+    float: left;
+    margin-top: 37px;
+    margin-left: 450px;
+}
+#top {
+	float: right;
+    font-size: 18px;
+    font-weight: bold;
+	margin: 35px 13px 0px 0px;
+}
+#search {
+    float: left;
+    width: 500px;
+    height: 35px;
+    margin: 30px 0px 0px 7px;
+    border: solid 3px rgb(255, 192, 0);
+}
+table, th, td {
+    margin: 0 0 0 10px;
+	border: solid 1px black;
+	border-collapse: collapse;
+	padding: 8px; background-color: rgb(255, 244, 231); width: 1000px
+    }
+    h2 {color: rgb(237, 125, 49);}
+.a {
+    float: left;
+}
+#buttom {
+    width: 120px; 
+    margin: 6px 0px 0px 560px; 
+    text-align: center; 
+    background-color: rgb(237, 125, 49); 
+    color: white;}
+#buttom2 {
+    width: 200px; 
+    height: 40px; 
+    font-size: 27px;
+    margin: 80px 0 0 400px; 
+    text-align: center; 
+    background-color: rgb(237, 125, 49); 
+    color: white;}
+input {
+    height: 30px; 
+    width: 300px;
+    border: solid 2px rgb(255, 192, 0);}
+#buttom3 {
+    margin: 0px 0px 0px 0px;
+    }
+#button {
+    float: left;
+    margin-left: 370px;
+    margin-top: 7px;
+    width: 25px; border: solid 2px rgb(255, 192, 0);
+}
+#site {
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+tr {
+    height: 70px;
+    border: solid 2px rgb(255, 192, 0);
+}
+td {border: solid 2px rgb(255, 192, 0);}
+.w {
+    color: white;
+}
+#footer_logo {
+    float: left;
+    margin: 30px 0px 0px 60px;
+    font-size: 50px;
+    font-weight: bold;
+}
+#footer_con {
+    float: right;
+    margin: 20px 70px 0px 0px;
+    font-weight: bold;
+}
+.Ye1 {
+    color: yellow;
+}
+</style>
+</head>
+<body>
+<header>
+    <div id="logo">
+        <a href="1main.html"><span class="Or">요</span><span class="Ye">리</span><span class="Or">조</span><span class="Ye">리</span></a>
+    </div>
+
+    <div id="mag">
+        <img src="img/돋보기.jpg" width="25px">
+    </div>
+
+    <div id="top">
+        <span class="Or">|</span>
+        <a href="2singup.html">회원가입</a>
+        <span class="Ye">|</span>
+        <a href="4login.html">로그인</a>
+        <span class="Or">|</span>
+        <a href="11Store.html" target="_blank">Store</a>
+        <span class="Ye">|</span>
+    </div>
+    <input id="search" type="text" placeholder="입력하세요!"> 
+</header>
+<section>
+<h2>&nbsp;&nbsp;&nbsp;<br>회원가입</h2>
+<br>
+<table>
+    <tr>
+        <td><b>아이디 *</b></td>
+        <td><div class="a"><input type="text">&nbsp;&nbsp;&nbsp;영문소문자/숫자 4~12자</div> <div id="buttom"><b>중복확인</b></div></td>
+    </tr>
+    <tr>
+        <td><b>비밀번호 *</b></td>
+        <td><input type="password">&nbsp;&nbsp;&nbsp;영문소문자/숫자/특수문자 중 2가지 이상 조합 10자~16자</td>
+    </tr>
+    <tr>
+        <td><b>비밀번호 확인 *</b></td>
+        <td><input type="password"></td>
+    </tr>
+    <tr>
+        <td><b>이름 *</b></td>
+        <td><input type="text"></td>
+    </tr>
+    <tr>
+        <td><b>휴대전화 *</b></td>
+        <td><div class="a"><input type="text"></div><div id="buttom"><b>인증번호 발송</b></div></td>
+    </tr>
+    <tr>
+        <td><b>이메일 *</b></td>
+        <td>
+            <div class="a">
+                <input tupe="text">@<select>
+                <option>-----선택-----</option>
+                <option>naver.com</option>
+                <option>hanmail.net</option>
+                <option>직접입력</option></select>
+            </div>
+                <div id="buttom"><b>중복확인</b></div>
+        </td>
+    </tr>
+</table>
+<br>
+<input type='checkbox' id="button"><div id="site">사이트 이용을 위한 약관에 동의</div>
+<div id="buttom2"><b><a href="3signup_2.html" class="w">회원가입</a></b></div>
+</section>
+
+<footer>
+    <div id="footer_logo">
+        <span class="Or">요</span><span class="Ye1">리</span><span class="Or">조</span><span class="Ye1">리</span>
+    </div>
+    <div id="footer_con">
+        디지털기술경영학과<br>
+        웹프로그래밍<br>
+        20180610 이주형 20200359 남아연<br>
+        20200378 우혜원 20200379 유영석<br>
+    </div>
+</footer>
+</body>
+</html>
